@@ -4,4 +4,17 @@
   text-align: center;
   margin: 16px;
   border: 1px solid black;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.charComp:hover {
+  padding: 24px;
+  margin: 24px;
+  box-shadow: 1px 1px 2px 2px purple;
+  background: black;
+  color: white;
+  font-family: helvetica;
+  font-weight: 700;
+  font-size: 20px;
 }

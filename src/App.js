@@ -43,6 +43,7 @@ class App extends Component {
         <ValidationComponent textLength={this.state.textLength} />
         <hr/>
         <h3>Letter Characters:</h3>
+        <h3><small>Click A Letter To Remove It!</small></h3>
         {this.state.characters && 
           this.state.characters.map(char => {
             return (
